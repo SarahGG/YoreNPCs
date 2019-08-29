@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.dnd_npc_dashboard">
 
+    <!-- Todo: one of the main things I'll do here is configure the list of permissions needed by my app. //-->
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
