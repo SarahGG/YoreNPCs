@@ -23,9 +23,10 @@
             android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title" />
 
         <Button
-            android:id="@+id/button8"
+            android:id="@+id/my_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="onButtonTap"
             android:text="@string/my_button_text" />
 
         <com.google.android.material.tabs.TabLayout

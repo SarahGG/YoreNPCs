@@ -12,11 +12,15 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 import com.example.dnd_npc_dashboard.ui.main.SectionsPagerAdapter;
 
 public class
 MainActivity extends AppCompatActivity {
+
+    //Todo: res folder is full of folders for graphics, string values, menus, the definition for the User Interface.
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,5 +40,11 @@ MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+    }
+
+    public void onButtonTap(View v) {
+        Toast buttonToast = Toast.makeText(getApplicationContext(), "I Said! No! Touchies!", Toast.LENGTH_LONG);
+
+        buttonToast.show();
     }
 }
