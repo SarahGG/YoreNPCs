@@ -1,6 +1,6 @@
 <resources>
     <!--// Todo: this is where all Strings are stored with an ID, for easy access, quick changes, and ease of use //-->
-    <string name="app_name">Yore Book of NPCs</string>
+    <string name="app_name">Yore NPCs</string>
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>
     <string name="my_button_text">No Touchies!</string>
