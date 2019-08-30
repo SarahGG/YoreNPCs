@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DND_NPC_Dashboard.iml" filepath="$PROJECT_DIR$/DND_NPC_Dashboard.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../YoreNPCs/YoreNPCs/.idea/YoreNPCs.iml" filepath="$PROJECT_DIR$/../YoreNPCs/YoreNPCs/.idea/YoreNPCs.iml" />
     </modules>
   </component>
 </project>
