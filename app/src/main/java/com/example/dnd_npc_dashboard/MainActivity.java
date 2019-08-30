@@ -24,13 +24,17 @@ MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        //savedInstaceState is a Bundel object
+        // Todo: savedInstanceState is a Bundle object
         super.onCreate(savedInstanceState);
+        // Todo: when this is started, open up and show the XML design at the following location:
         setContentView(R.layout.activity_main);
 
+        // Todo: supplies the pages that a view shows. views are built with the viewPager
+        // Still not so sure on what a SupportFragmentManager is
         SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(this, getSupportFragmentManager());
-
+        // Todo: allows a user to flip left and right through an app between pages
         ViewPager viewPager = findViewById(R.id.view_pager);
+        // Todo: Joins the two together so that flipping left and right shows the desired designs.
         viewPager.setAdapter(sectionsPagerAdapter);
 
         TabLayout tabs = findViewById(R.id.tabs);
